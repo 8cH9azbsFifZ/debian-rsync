@@ -1,5 +1,7 @@
+ARG ARCH=
 FROM debian:buster-slim
 MAINTAINER Gerolf Ziegenhain "gerolf.ziegenhain@gmail.com"
 
 RUN apt-get update
-RUN apt-get -y install rsync
+RUN apt-get -y install rsync cron
+
