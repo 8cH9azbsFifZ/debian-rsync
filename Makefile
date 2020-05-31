@@ -1,4 +1,4 @@
-VER=0.2
+VER=0.3
 build:
 #	docker build . -t rsync
 #	docker build . -t asdlfkj31h/rsync:0.1
